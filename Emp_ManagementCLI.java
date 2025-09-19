@@ -9,7 +9,7 @@ public class Emp_Management {
 	DatabaseMetaData dbm; 
 	Scanner sc = new Scanner(System.in);
 	
-	Emp_Management() {
+	Emp_Management() { 
 		try {
 			DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver());
 			con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "system", "password");
@@ -226,3 +226,4 @@ public class Emp_Management {
 		} while (ch != 6);
 	}
 }
+
