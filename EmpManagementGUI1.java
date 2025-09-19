@@ -12,7 +12,7 @@ public class EmpManagementGUI extends JFrame {
 	PreparedStatement ps;
 	DatabaseMetaData dbm;
 
-	// GUI components
+	// GUI components 
 	JTabbedPane tabs;
 	JTextField nameInput, idInput, salaryInput, idDelete;
 	JButton addBtn, DeleteEmp;
@@ -180,3 +180,4 @@ public class EmpManagementGUI extends JFrame {
 		new EmpManagementGUI();
 	}
 }
+
