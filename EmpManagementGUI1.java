@@ -7,7 +7,7 @@ import javax.swing.table.DefaultTableModel;
 public class EmpManagementGUI extends JFrame {
 	// Database components
 	Connection con;
-	Statement st;
+	Statement st; 
 	ResultSet rs;
 	PreparedStatement ps;
 	DatabaseMetaData dbm;
@@ -180,4 +180,5 @@ public class EmpManagementGUI extends JFrame {
 		new EmpManagementGUI();
 	}
 }
+
 
