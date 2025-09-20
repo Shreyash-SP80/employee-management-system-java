@@ -8,7 +8,7 @@ public class EmpManagementGUI extends JFrame {
 	// Database components
 	Connection con;
 	Statement st; 
-	ResultSet rs;
+	ResultSet rs; 
 	PreparedStatement ps;
 	DatabaseMetaData dbm;
 
@@ -180,5 +180,6 @@ public class EmpManagementGUI extends JFrame {
 		new EmpManagementGUI();
 	}
 }
+
 
 
