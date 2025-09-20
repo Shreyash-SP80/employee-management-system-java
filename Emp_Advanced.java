@@ -4,7 +4,7 @@ import java.awt.event.*;
 import java.sql.*;
 import javax.swing.table.DefaultTableModel;
 
-
+ 
 public class Emp_Advanced extends JFrame {
     private Connection con;
     private PreparedStatement pstmt;
